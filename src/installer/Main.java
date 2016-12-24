@@ -20,6 +20,7 @@ public class Main {
 			Runtime.getRuntime().exec(path);
 		} catch (IOException e) {
 			e.printStackTrace();
+			// Life is extremely tough.
 		} // try-catch
 	} // runBatch
 
